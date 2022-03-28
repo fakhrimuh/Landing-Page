@@ -7,13 +7,69 @@ header img {
   height: 40px;
 }
 
-.nav a {
-  cursor: pointer;
-}
-
 .headline-text {
   font-weight: bold;
   font-size: 100px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+/* animation Headline */
+.fade-in-headline {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.desc {
+  font-weight: 500;
+  text-align: justify;
 }
 
 #carouselBlogControl .card {
@@ -22,7 +78,7 @@ header img {
 }
 
 .item button {
-  transition: background 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .item button:hover i {
@@ -78,3 +134,19 @@ footer i {
 .fa-linkedin:hover {
   color: #0a66c2;
 }
+
+svg path {
+  fill: #117132;
+}
+
+/* animation per section */
+/* .tag {
+  opacity: 0.5;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+} */
