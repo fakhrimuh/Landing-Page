@@ -1,0 +1,80 @@
+body {
+  overflow-x: hidden;
+}
+
+header img {
+  width: 100px;
+  height: 40px;
+}
+
+.nav a {
+  cursor: pointer;
+}
+
+.headline-text {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+#carouselBlogControl .card {
+  width: 650px;
+  height: 650px;
+}
+
+.item button {
+  transition: background 0.5s ease;
+}
+
+.item button:hover i {
+  color: white;
+}
+
+.item i {
+  color: green;
+  margin-left: 20px;
+}
+
+.arrow1 {
+  animation: slide1 1s ease-in-out infinite;
+  margin-left: 9px;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
+footer {
+  background-color: #030120;
+}
+
+footer img {
+  width: 150px;
+  height: 50px;
+}
+
+footer i {
+  color: white;
+}
+
+.address {
+  text-align: justify;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+.fa-linkedin:hover {
+  color: #0a66c2;
+}
